@@ -1,2 +1,19 @@
+[tool.poetry]
+name = "comics-api"
+version = "0.1.0"
+description = "Canid Comics backend API"
+authors = ["Reyu Zenfold <reyu@reyuzenfold.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.63.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.10.1"
+changelog = "^0.5.5"
+ipython = "^7.20.0"
+
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
