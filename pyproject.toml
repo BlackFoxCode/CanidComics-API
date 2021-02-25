@@ -5,7 +5,7 @@ description = "Canid Comics backend API"
 authors = ["Reyu Zenfold <reyu@reyuzenfold.com>"]
 license = "MIT"
 packages = [
-    { include = "comics", from = "src" }
+    { include = "api", from = "app" }
 ]
 
 [tool.poetry.dependencies]

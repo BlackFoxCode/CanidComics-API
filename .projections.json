@@ -1,10 +1,10 @@
 {
-    "src/comics/*.py": {
+    "app/api/*.py": {
         "alternate": "test/{}_test.py",
-        "type": "source"
+        "type": "api"
     },
     "test/*_test.py": {
-        "alternate": "src/comics/{}.py",
+        "alternate": "app/api/{}.py",
         "type": "test"
     },
     "*.py": {
