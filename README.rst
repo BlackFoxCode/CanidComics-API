@@ -3,13 +3,19 @@ Comics
 ======
 
 
-Add a short description here!
+Backend API for Canid Comics
 
 
 Description
 ===========
 
-A longer description of your project goes here...
+This is the full backend server code for the Canid Comics website.
+It will eventually support three main content types:
+
+* JSON:API (https://jsonapi.org/)
+* Plain JSON
+* GraphQL
+
 
 
 Note
