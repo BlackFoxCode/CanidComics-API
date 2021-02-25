@@ -1,0 +1,17 @@
+{
+    "src/comics/*.py": {
+        "alternate": "test/{}_test.py",
+        "type": "source"
+    },
+    "test/*_test.py": {
+        "alternate": "src/comics/{}.py",
+        "type": "test"
+    },
+    "*.py": {
+        "console": "poetry run ipython"
+    },
+    "*": {
+        "dispatch": "poetry run pytest",
+        "make": "poetry build"
+    }
+}
