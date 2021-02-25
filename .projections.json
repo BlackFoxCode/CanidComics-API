@@ -1,4 +1,7 @@
 {
+    "app/*.py": {
+        "type": "app"
+    },
     "app/api/*.py": {
         "alternate": "test/{}_test.py",
         "type": "api"
