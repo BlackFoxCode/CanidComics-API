@@ -13,6 +13,11 @@ fastapi = "^0.63.0"
 pre-commit = "^2.10.1"
 changelog = "^0.5.5"
 ipython = "^7.20.0"
+pytest = { version = "^6.2.2", optional = true }
+pytest-cov = { version = "^2.11.1", optional = true }
+
+[tool.poetry.extras]
+test = ["pytest", "pytest-cov"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
